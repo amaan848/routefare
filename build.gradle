@@ -26,6 +26,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.jetbrains:annotations:24.0.1'
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
